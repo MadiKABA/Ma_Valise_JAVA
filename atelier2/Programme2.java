@@ -2,23 +2,23 @@ package atelier2;
 
 import java.util.Scanner;
 
-public class Programme1 {
+public class Programme2 {
 
     int nbre1,nbre2,resultat;
    
-    public Programme1()
+    public Programme2()
     {
 
     }
 
-    public void somme() {
+    public void produit() {
         Scanner scan = new Scanner(System.in);
             System.out.println("Entre le premier nombre: ");
             nbre1=scan.nextInt();
             System.out.println("Entre le deuxieme nombre: ");
             nbre2=scan.nextInt();
-            resultat=nbre1+nbre2;
-       System.out.println("La somme de "+nbre1+" + " +nbre2+" = "+resultat);;
+            resultat=nbre1*nbre2;
+       System.out.println("La produit de "+nbre1+" + " +nbre2+" = "+resultat);;
         System.out.println("Bonjour P4");
     }   
 }

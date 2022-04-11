@@ -1,11 +1,11 @@
-import atelier2.Programme1;
+import atelier2.Programme2;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        Programme1 prog=new Programme1();
-
-        prog.test();
+        Programme2 prog=new Programme2();
+        prog.produit();
     }
     
 }
