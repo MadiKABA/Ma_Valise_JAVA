@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Programme3 {
 
     int nbre1,nbre2,resultat;
-    public void produit() {
+    public void difference() {
         Scanner scan = new Scanner(System.in);
             System.out.println("Entre le premier nombre: ");
             nbre1=scan.nextInt();
