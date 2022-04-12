@@ -1,11 +1,18 @@
-import atelier2.Programme9;
+import java.util.Scanner;
+
+import atelier4.Personne;
 
 
 public class Main {
 
     public static void main(String[] args) {
-        Programme9 prog=new Programme9();
-        prog.saisie();
+        
+        Personne pers=new Personne();
+        Personne[] persaisie= pers.saisiePersonneV2();
+        for (int i = 0; i < persaisie.length; i++) {
+            System.out.println(persaisie[i].toString());
+        }
+      
     }
     
 }
